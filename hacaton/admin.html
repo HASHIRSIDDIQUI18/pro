@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Admin Portal</h1>
+    
+    <form id="addStudentForm">
+        <h2>Add Student</h2>
+        <input type="text" id="firstName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="text" id="cnic" placeholder="CNIC" required>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <form id="uploadMarksForm">
+        <h2>Upload Marks</h2>
+        <input type="text" id="course" placeholder="Course" required>
+        <input type="text" id="studentId" placeholder="Student ID" required>
+        <input type="number" id="marks" placeholder="Marks" required>
+        <input type="number" id="totalMarks" placeholder="Total Marks" required>
+        <input type="text" id="grade" placeholder="Grade" required>
+        <button type="submit">Upload Marks</button>
+    </form>
+
+    <button id="logoutButton">Logout</button>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

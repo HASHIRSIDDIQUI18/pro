@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Portal</h1>
+    
+    <form id="resultForm">
+        <h2>Get Result</h2>
+        <input type="text" id="resultCNIC" placeholder="Enter CNIC" required>
+        <button type="submit">Get Result</button>
+        <div id="resultDisplay"></div>
+    </form>
+
+    <form id="editProfileForm">
+        <h2>Edit Profile</h2>
+        <input type="text" id="editFirstName" placeholder="First Name" required>
+        <input type="text" id="editLastName" placeholder="Last Name" required>
+        <input type="text" id="editCNIC" placeholder="CNIC" required>
+        <button type="submit">Update Profile</button>
+    </form>
+
+    <button id="logoutButton">Logout</button>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
